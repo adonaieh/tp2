@@ -1,0 +1,44 @@
+/*ACCUEIL*/
+
+#accueil {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#accueil aside {
+    display: flex;
+}
+
+#accueil aside:first-child {
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.5);
+    color: #360202;
+
+}
+
+#accueil aside:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#accueil h1, #accueil h2, #accueil h3 {
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+#accueil h1 {
+    color: #871313;
+}
+
+#accueil aside figure img {
+    transform: scale(0.5);
+    /*-webkit-box-shadow: 10px 10px 30px 10px #FF3D3D;
+box-shadow: 10px 10px 30px 10px #FF3D3D;*/
+}

@@ -1,0 +1,46 @@
+/*COMMANDER*/
+
+#commander form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #360202;
+    border-radius: 8px;
+    width: 60vw;
+}
+
+#commander h1 {
+    padding-bottom: 5vh;
+}
+
+#commander legend {
+    transform: scale(1);
+    padding-top: 2vh;
+    color:#360202;
+    font-weight: bold;
+}
+
+#commander fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    background-color: #c45454;
+    color:#360202;
+    border: 2px dashed #360202;
+    border-radius: 8px;
+}
+
+#commander input {
+    display: flex;
+    width: 120px;
+    background-color: #fdb1b1;
+    color:#360202;
+}
+
+#boutons input {
+    background-color: #360202;
+    color:#f5abab;
+}

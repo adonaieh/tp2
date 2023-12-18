@@ -1,0 +1,55 @@
+/*MENU TOUT EN HAUR*/
+
+nav aside ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav aside ul li a{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgb(248, 154, 154);
+    font-size: 40px;
+}
+
+nav aside ul li a:hover {
+    border: 2px solid #871313;
+    background-color: rgb(248, 154, 154);
+    color: #871313;
+    border-radius: 200px;
+}
+
+nav aside ul li a:active {
+    border: 2px solid rgb(248, 154, 154);
+    background-color: #871313;
+    color: #c45454;
+    border-radius: 200px;
+}
+
+#menu1 {
+    position: relative;
+    top: -83.5vh;
+    left: -60vh;
+}
+
+#menu2 {
+    position: relative;
+    top: -90.5vh;
+    right: -50vh;
+}
+
+header ul li input {
+    margin-top: 1vh;
+    background-color: #fdb1b1;
+    color:#871313;
+    width: 10vw;
+    border: 1px solid #871313;
+    border-radius: 4px;
+}
+
+header ul li button {
+    background-color: #c45454;
+    border-radius: 50px;
+}

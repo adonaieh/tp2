@@ -1,0 +1,87 @@
+/*SPÉCIALES*/
+
+#galerie{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.vignette {
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+.noVignette:hover {
+    border: 5px solid #fdb1b1;
+}
+
+/*#galerie div:hover {
+    transform: scale(4);
+    margin: 0 auto;
+}*/
+
+.noVignette {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.vignette {
+    border-radius: 10px;
+    border: 2px dashed #fdb1b1;
+}
+
+.noVignette, .vignette {
+    background-color: #742f2f;
+    color:#fdb1b1;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#galerie #no1:hover ~ .vignette{
+    display: block;
+    transform: scale(5) translateX(-150px) translateY(50px);
+    background-image: url(../images/saveur1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#galerie #no2:hover ~ .vignette{
+    display: block;
+    transform: scale(5) translateX(-150px) translateY(50px);
+    background-image: url(../images/saveur2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#galerie #no3:hover ~ .vignette{
+    display: block;
+    transform: scale(5) translateX(-150px) translateY(50px);
+    background-image: url(../images/saveur3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#galerie #no4:hover ~ .vignette{
+    display: block;
+    transform: scale(5) translateX(-150px) translateY(50px);
+    background-image: url(../images/saveur4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#galerie #no5:hover ~ .vignette{
+    display: block;
+    transform: scale(5) translateX(-150px) translateY(50px);
+    background-image: url(../images/saveur5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}

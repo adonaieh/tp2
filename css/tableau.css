@@ -1,0 +1,60 @@
+/*TABLEAU SAVEURS*/
+
+#saveurs, #commander, #speciales {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#saveurs h1, #commander h1, #speciales h1 {
+    padding-bottom: 2vh;
+    transform: scale(1.5);
+    color: #871313;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#saveurs .tableau1 {
+    padding-top: 0;
+    padding-bottom: 3vh;
+    border-collapse: collapse;
+    width: 80vw;
+    height: 70vh;
+    border: 2px solid #360202;
+    text-align: center;
+}
+
+#saveurs .tableau1 td {
+    border: 2px solid #360202;
+    height: 90px;
+    width: 90px;
+    color: #8b2d2d;
+    background-color: #f5abab;
+}
+
+#saveurs .tableau1 td img {
+    width: 90px;
+    height: 90px;
+}
+
+#saveurs .tableau1 th {
+    background-color: #8b2d2d;
+    color: #f5abab;
+    border: 2px solid #f5abab;
+    font-size: 25px;
+}
+
+#saveurs tr td:last-child {
+    font-style: italic;
+    font-size: 30px;
+}
+
+#saveurs caption{
+    background-color: #742f2f;
+    color: #f5abab;
+    border: 2px solid #f5abab;
+    font-size: 25px;
+}
